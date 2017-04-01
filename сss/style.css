@@ -1,0 +1,178 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+	background: #3c5a98;
+	min-height: 6em;
+}
+
+.main {
+	background: #e9ebee;
+	min-height: 47em;
+}
+
+.footer {
+	background: white;
+	min-height: 10em;
+}
+
+.header-content, .main-content, .footer-content {
+	margin: 0 auto;
+	width: 65%;
+}
+
+
+
+
+
+/*Верстка блоку header-content*/
+
+.header-content label {
+	color: white;
+	font-size: 0.8em;
+}
+
+.header-content tr, td {
+	display: inline-block;
+}
+
+.logo {
+	margin-top: 3em;
+}
+
+.header-content ul li {
+	display: inline-block;
+}
+
+#form-mg {
+	margin-bottom: 2.1em;
+}
+
+#forgot a {
+	color: white;
+	font-size: 0.8em;
+}
+
+
+
+
+
+/*Верстка блоку main-content*/
+
+.main-content img {
+	border:4px solid white;
+	border-radius: 2px;
+}
+
+.main-content p {
+	font-size: 2.3em;
+}
+
+.hr-1 {
+	border-bottom:1px solid lightgrey;
+	margin-top: 2em;
+}
+
+.main-content h5 {
+	color: #6e6666;
+	font-size: 0.9em;
+	font-weight: bold;
+	margin-bottom: 4em;
+	margin-top: 1.6em;
+}
+
+.photo {
+	text-align: center;
+}
+
+.photo h2 {
+	font-size: 2.5em;
+}
+
+.photo img {
+	margin: 3em 0 0.8em 0;
+}
+
+.photo p {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.new-acc-marg {
+	margin-top: 1.5em;
+	font-size: 1.1em;
+}
+
+.ever-marg {
+	margin-bottom: 1.2em;
+}
+
+.inp-marg {
+	margin-bottom: 1em;
+}
+
+#select-style {
+	height: 2.2em;
+	background-color: #DFDFDF;
+	text-indent: 0.1em;
+}
+
+.why {
+	font-size: 0.7em;
+}
+
+.agree-style {
+	text-align: justify;
+    line-height: 1em;
+    margin-bottom: 1.7em;
+    font-size: 0.8em;
+	color: grey;
+}
+
+
+
+
+
+/*Верстка блоку footer-content*/
+
+.footer-content li {
+	display: inline-block;
+	margin-right: 0.1em;
+	font-size: 0.9em;
+}
+
+.footer-content ul {
+	padding-left: 0;
+	margin-right: 0.8em;
+}
+
+.hr-2 {
+	border-bottom:1px solid lightgrey;
+	margin:0.4em 0 0.4em 1em;
+}
+
+.links div:nth-child(n+2) {
+	font-size: 0.9em;
+	width: 7em;
+	text-align: justify;
+}
+
+.links div:first-child {
+	font-size: 0.9em;
+	width: 7em;
+	text-align: justify;
+	margin-right:2em;
+}
+
+.copyright {
+	margin-bottom: 8em;
+}
+
+.copyright p {
+	color: grey;
+	margin: 1.5em 0 2.5em 0;
+	font-size: 0.8em;
+	font-weight: bold;
+
+}
